@@ -81,37 +81,37 @@ This is a factor varible with six levels. It represents the six activities perfo
 * LAYING
 
 ####Variable 3,4,5 - tBodyAcc.mean
-*Var 3 - tBodyAcc.mean...X
-*Var 4 - tBodyAcc.mean...Y
-*Var 5 - tBodyAcc.mean...Z
+* Var 3 - tBodyAcc.mean...X
+* Var 4 - tBodyAcc.mean...Y
+* Var 5 - tBodyAcc.mean...Z
 
 tBodyAcc.mean-XYZ are mean of time domain signals (prefix 't' to denote time) that capture Body Acceleration(BodyAcc) across the three axis. The output file has mean of tBodyAcc.mean across the three axis.
 
 ####Variable 6,7,8 - tGravityAcc.mean
-*Var 6 - tGravityAcc.mean...X
-*Var 7 - tGravityAcc.mean...Y
-*Var 8 - tGravityAcc.mean...Z
+* Var 6 - tGravityAcc.mean...X
+* Var 7 - tGravityAcc.mean...Y
+* Var 8 - tGravityAcc.mean...Z
  
 tGravityAcc.mean-XYZ are mean of time domain signals (prefix 't' to denote time) that capture Gravity Acceleration(GravityAcc) across the three axis. The output file has mean of tGravityAcc.mean across the three axis.
  
 ####Variable 9,10,11 - tBodyAccJerk.mean
-*Var 9  - tBodyAccJerk.mean...X
-*Var 10 - tBodyAccJerk.mean...Y
-*Var 11 - tBodyAccJerk.mean...Z
+* Var 9  - tBodyAccJerk.mean...X
+* Var 10 - tBodyAccJerk.mean...Y
+* Var 11 - tBodyAccJerk.mean...Z
 
 tBodyAccJerk.mean-XYZ are mean of time domain signals (prefix 't' to denote time) that capture Body Acceleration Jerk signals (BodyAccJerk) across the three axis. Note the body linear acceleration was derived in time to obtain Jerk signals. The output file has mean of tBodyAccJerk.mean across the three axis.
 
 ####Variable 12,13,14 - tBodyGyro.mean
-*Var 12 - tBodyGyro.mean...X
-*Var 13 - tBodyGyro.mean...Y
-*Var 14 - tBodyGyro.mean...Z
+* Var 12 - tBodyGyro.mean...X
+* Var 13 - tBodyGyro.mean...Y
+* Var 14 - tBodyGyro.mean...Z
 
 tBodyGyro.mean-XYZ are mean of time domain signals (prefix 't' to denote time) that capture  signals from gyroscope(BodyGyro) across the three axis. The output file has mean of tBodyGyro.mean across the three axis.
 
 ####Variable 15,16,17 - tBodyGyroJerk.mean
-*Var 15 - tBodyGyroJerk.mean...X
-*Var 16 - tBodyGyroJerk.mean...Y
-*Var 17 - tBodyGyroJerk.mean...Z
+* Var 15 - tBodyGyroJerk.mean...X
+* Var 16 - tBodyGyroJerk.mean...Y
+* Var 17 - tBodyGyroJerk.mean...Z
 
 The body linear acceleration was derived in time to obtain Jerk signals. tBodyGyroJerk.mean-XYZ variables are mean of time domain signals (prefix 't' to denote time) that capture  signals from gyroscope and do time derivation from these variables(BodyGyroJerk) across the three axis. The output file has mean of tBodyGyroJerk.mean across the three axis.
 
@@ -136,23 +136,23 @@ tBodyGyroMag contains magnitude of the three-dimensional signal, tBodyGyro, that
 tBodyGyroJerkMag contains magnitude of the three-dimensional signal, tBodyGyroJerk, that was calculated using the Euclidean norm. tBodyGyroJerkMag.mean is the mean of time domain signal tBodyGyroJerkMag. The output file has mean of tBodyGyroJerkMag.mean.
 
 ####Variable 23,24,25 - fBodyAcc.mean
-*Var 23 - fBodyAcc.mean...X
-*Var 24 - fBodyAcc.mean...Y
-*Var 25 - fBodyAcc.mean...Z
+* Var 23 - fBodyAcc.mean...X
+* Var 24 - fBodyAcc.mean...Y
+* Var 25 - fBodyAcc.mean...Z
 
 Fast Fourier Transform (FFT) was applied to Body Acceleration signals producing fBodyAcc-XYZ. fBodyAcc.mean are mean of frequency domain signals (prefix 'f' to denote frequency) that capture Body Acceleration(BodyAcc) across the three axis. The output file has mean of fBodyAcc.mean-XYZ in respective columns.
 
 ####Variable 26,27,28 - fBodyAccJerk.mean
-*Var 26 - fBodyAccJerk.mean...X
-*Var 27 - fBodyAccJerk.mean...Y
-*Var 28 - fBodyAccJerk.mean...Z
+* Var 26 - fBodyAccJerk.mean...X
+* Var 27 - fBodyAccJerk.mean...Y
+* Var 28 - fBodyAccJerk.mean...Z
 
 Fast Fourier Transform (FFT) was applied to Body Acceleration Jerk signals producing fBodyAccJerk-XYZ. fBodyAccJerk.mean are mean of frequency domain signals (prefix 'f' to denote frequency) that capture Body Acceleration Jerk(BodyAccJerk) across the three axis. The output file has mean of fBodyAccJerk.mean-XYZ in respective columns.
 
 ####Variable 29,30,31 - fBodyGyro.mean
-*Var 29 - fBodyGyro.mean...X
-*Var 30 - fBodyGyro.mean...Y
-*Var 31 - fBodyGyro.mean...Z
+* Var 29 - fBodyGyro.mean...X
+* Var 30 - fBodyGyro.mean...Y
+* Var 31 - fBodyGyro.mean...Z
 
 Fast Fourier Transform (FFT) was applied to Gyroscope signals producing fBodyGyro-XYZ. fBodyGyro.mean are means of frequency domain signals (prefix 'f' to denote frequency) that capture body gryroscope signals(BodyGyro) across the three axis. The output file has mean of fBodyGyro.mean-XYZ in respective columns.
 
@@ -173,37 +173,37 @@ fBodyGyroMag contains Fast Fourier Transform (FFT) of, magnitude of Gyroscope si
 fBodyGyroMag contains Fast Fourier Transform (FFT) of, magnitude of Gyroscope Jerk signals. fBodyGyroJerkMag.mean is the mean of frequency domain signal fBodyGyroJerkMag. The output file has mean of fBodyGyroJerkMag.mean
 
 ####Variable 36 to 38 - tBodyAcc.std
-*Var 36: tBodyAcc.std...X
-*Var 37: tBodyAcc.std...Y
-*Var 38: tBodyAcc.std...Z
+* Var 36: tBodyAcc.std...X
+* Var 37: tBodyAcc.std...Y
+* Var 38: tBodyAcc.std...Z
 
 tBodyAcc.std-XYZ are standard deviation of time domain signals (prefix 't' to denote time) that capture Body Acceleration(BodyAcc) across the three axis. The output file has mean of tBodyAcc.std across the three axis.
 
 ####Variable 39 to 41 - tGravityAcc.std
-*Var 39: tGravityAcc.std...X
-*Var 40: tGravityAcc.std...Y
-*Var 41: tGravityAcc.std...Z
+* Var 39: tGravityAcc.std...X
+* Var 40: tGravityAcc.std...Y
+* Var 41: tGravityAcc.std...Z
 
 tGravityAcc.std-XYZ are standard deviation of time domain signals (prefix 't' to denote time) that capture Gravity Acceleration(GravityAcc) across the three axis. The output file has mean of tGravityAcc.std across the three axis.
 
 ####Variable 42 to 44 - tBodyAccJerk.std
-*Var 42: tBodyAccJerk.std...X
-*Var 43: tBodyAccJerk.std...Y
-*Var 44: tBodyAccJerk.std...Z
+* Var 42: tBodyAccJerk.std...X
+* Var 43: tBodyAccJerk.std...Y
+* Var 44: tBodyAccJerk.std...Z
 
 tBodyAccJerk.std-XYZ are standard deviation of time domain signals (prefix 't' to denote time) that capture Body Acceleration Jerk signals (BodyAccJerk) across the three axis. Note the body linear acceleration was derived in time to obtain Jerk signals. The output file has mean of tBodyAccJerk.std across the three axis.
 
 ####Variable 45 to 47 - tBodyGyro.std
-*Var 45: tBodyGyro.std...X
-*Var 46: tBodyGyro.std...Y
-*Var 47: tBodyGyro.std...Z
+* Var 45: tBodyGyro.std...X
+* Var 46: tBodyGyro.std...Y
+* Var 47: tBodyGyro.std...Z
 
 tBodyGyro.std-XYZ are standard deviation of time domain signals (prefix 't' to denote time) that capture  signals from gyroscope(BodyGyro) across the three axis. The output file has mean of tBodyGyro.std across the three axis.
 
 ####Variable 48 to 50 - tBodyGyroJerk.std
-*Var 48: tBodyGyroJerk.std...X
-*Var 49: tBodyGyroJerk.std...Y
-*Var 50: tBodyGyroJerk.std...Z
+* Var 48: tBodyGyroJerk.std...X
+* Var 49: tBodyGyroJerk.std...Y
+* Var 50: tBodyGyroJerk.std...Z
 
 The body linear acceleration was derived in time to obtain Jerk signals. tBodyGyroJerk.std-XYZ variables are standard deviation of time domain signals (prefix 't' to denote time) that capture  signals from gyroscope and do time derivation from these variables(BodyGyroJerk) across the three axis. The output file has mean of tBodyGyroJerk.std across the three axis.
 
@@ -228,23 +228,23 @@ tBodyGyroMag contains magnitude of the three-dimensional signal, tBodyGyro, that
 tBodyGyroJerkMag contains magnitude of the three-dimensional signal, tBodyGyroJerk, that was calculated using the Euclidean norm. tBodyGyroJerkMag.std is the standard deviation of time domain signal tBodyGyroJerkMag. The output file has mean of tBodyGyroJerkMag.std.
 
 ####Variable 56 to 58 - fBodyAcc.std
-*Var 56: fBodyAcc.std...X
-*Var 57: fBodyAcc.std...Y
-*Var 58: fBodyAcc.std...Z
+* Var 56: fBodyAcc.std...X
+* Var 57: fBodyAcc.std...Y
+* Var 58: fBodyAcc.std...Z
 
 Fast Fourier Transform (FFT) was applied to Body Acceleration signals producing fBodyAcc-XYZ. fBodyAcc.std are standard deviation of frequency domain signals (prefix 'f' to denote frequency) that capture Body Acceleration(BodyAcc) across the three axis. The output file has mean of fBodyAcc.std-XYZ in respective columns.
 
 ####Variable 59 to 61 - fBodyAccJerk.std
-*Var 59: fBodyAccJerk.std...X
-*Var 60: fBodyAccJerk.std...Y
-*Var 61: fBodyAccJerk.std...Z
+* Var 59: fBodyAccJerk.std...X
+* Var 60: fBodyAccJerk.std...Y
+* Var 61: fBodyAccJerk.std...Z
 
 Fast Fourier Transform (FFT) was applied to Body Acceleration Jerk signals producing fBodyAccJerk-XYZ. fBodyAccJerk.std are standard deviation of frequency domain signals (prefix 'f' to denote frequency) that capture Body Acceleration Jerk(BodyAccJerk) across the three axis. The output file has mean of fBodyAccJerk.std-XYZ in respective columns.
 
 ####Variable 62 to 64 - fBodyGyro.std
-*Var 62: fBodyGyro.std...X
-*Var 63: fBodyGyro.std...Y
-*Var 64: fBodyGyro.std...Z
+* Var 62: fBodyGyro.std...X
+* Var 63: fBodyGyro.std...Y
+* Var 64: fBodyGyro.std...Z
 
 Fast Fourier Transform (FFT) was applied to Gyroscope signals producing fBodyGyro-XYZ. fBodyGyro.std are standard deviation of frequency domain signals (prefix 'f' to denote frequency) that capture body gryroscope signals(BodyGyro) across the three axis. The output file has mean of fBodyGyro.std-XYZ in respective columns.
 
